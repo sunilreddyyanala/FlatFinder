@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+        background-color: black;
+}
+.logo{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.logo img {
+    height: auto;
+    width: 210px;
+}
+.navProperties ul {
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.navProperties ul li {
+    border-radius: 20px;
+    background-color: black;
+    padding: 12px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.navProperties ul li a {
+    color: white;
+    font-size: 13.5px;
+    text-decoration: none;
+}
+
+#login {
+    border-style: none;
+    color: white;
+    background-color: black;
+}
+.card-img-top{
+    border-radius: 30px;
+    padding: 20px;
+}
+.card{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.card-body{
+    padding: 25px;
+    margin-top: -5px;
+}
+.card-text{
+    color: grey;
+}
+.btn-primary{
+    border-radius: 10px;
+    width: 120px;
+}
+.btn-primary:hover{
+    background-color: black;
+/*    border: none;*/
+}
+h3,h5{
+    color: rgb(0, 91, 228);
+}

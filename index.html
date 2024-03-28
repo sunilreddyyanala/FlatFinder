@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" ,initial-scale=1.0>
+    <title> findmyflat </title>
+    <link rel="stylesheet" href="FindmyFlat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="bgimage">
+        <header>
+            <div class="logo"><a href="FindmyFlatindex.html"><img src="black%20no%20bg.png"></a>
+            </div>
+            <div class="navProperties">
+                <ul>
+                    <li><a href="#">Flats</a></li>
+                    <li><a href="#">PG's</a></li>
+                    <li><a href="#">RoomMates</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li>
+                        <div class="Login">
+                            <select name="LoginDetails" id="login">
+                                <a href="#">
+                                    <option value="Login">Login</option>
+                                </a>
+                                <a href="#">
+                                    <option value="Sign in">Sign Up</option>
+                                </a>
+                                <a href="#">
+                                    <option value="Sign up">Sign in</option>
+                                </a>
+                            </select>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <h1 class="heading"> Find your desired Flats,<br> With 0% Brokerage!</h1>
+
+        <select name="Location" id="selectLocation" onchange="window.location.href=this.value">
+            <option value="" default disabled selected>Select a Location</option>
+            <option value="EkOnkarCity.html">EkOnkarCity</option>
+            <option value="DarpanGreens.html">Darpan Greens</option>
+            <option value="ModernValley.html">Modern Valley</option>
+            <option value="kharar.html">Kharar</option>
+            <option value="gharaun.html">Gharaun</option>
+        </select>
+
+        <!--
+        <li>
+            <div class="SearchBar">
+                <select name="location" id="selectLocation" onchange="redirectToPage()">
+                    <option value="">Select a Location</option>
+                    <option value="gharaun">Gharaun</option>
+                    <option value="ekOnkarCity">EkOnkar City</option>
+                    <option value="female">GBP</option>
+                    <option value="female">Modern Valley</option>
+                    <option value="female">Kharar</option>
+                </select>
+            </div>
+        </li>
+-->
+
+<!--
+        <script>
+            function redirectToPage() {
+                var selectedValue = document.getElementById("selectLocation").value;
+                if (selectedValue === "EkOnkarCity") {
+                    window.location.href = "contact.html"; // Replace with the actual URL of your page
+                }
+            }
+        </script>
+-->
+        <!--
+            <select name="location" id="Select a Location">
+                <a href="contact.html"><option value="male">Select a Location</option></a>
+                <option value="male">EkOnkar City</option>
+                <option value="female">Female</option>
+            </select>
+-->
+        <!--
+            <input type="text" placeholder="Search for Location" name="locationname">
+            <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #a0a4ab;"></i></a>
+-->
+    </div>
+
+    <!--
+        <select name="usergender" id="gender">
+            <option value="male">Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+
+        <fieldset>
+            Flat : <input type="radio" name="FlatorPG" id="FlatorPG">
+            PG : <input type="radio" name="FlatorPG" id="FlatorPG">
+        </fieldset>
+-->
+
+
+    
+        <div class="PostProperty">
+            <div class="statement">Are you a Property Owner!</div>
+            <a href="contact.html"><button id="PropertyPost">Contact Us</button></a>
+        </div>
+
+<!--    </div>-->
+
+    <div class="Features">
+        <h2>Why Find my Flat?</h2>
+        <img src="zero-brokerage-high-resolution-logo-color-on-transparent-background.png">
+        <img src="rental-agreement-high-resolution-logo-color-on-transparent-background.png">
+        <img src="get-owner-details-in-one-click-high-resolution-logo-color-on-transparent-background.png">
+        <img src="24-x-7-customer-support-high-resolution-logo-color-on-transparent-background.png">
+    </div>
+    <div class="Fivestepsheading">
+        <h2>Find your Flat in 5 Steps !</h2>
+    </div>
+    <div class="FiveSteps">
+        <div class="container left-container">
+            <img src="OC1ODT0.jpg">
+            <div class="text-box">
+                <h3>1.Browse Flat</h3>
+                <p>Search for your desired flat by entering the location </p>
+                <span class="left-container-arrow"></span>
+            </div>
+
+        </div>
+        <div class="container right-container">
+            <img src="OC1ODT0.jpg">
+            <div class="text-box">
+                <h3>2.Choose Flat</h3>
+                <p>Choose a flat with which satisfies you</p>
+                <span class="right-container-arrow"></span>
+            </div>
+
+        </div>
+        <div class="container left-container">
+            <img src="OC1ODT0.jpg">
+            <div class="text-box">
+                <h3>3.Get Details</h3>
+                <p>Click on the get details button,and contact the owner</p>
+                <span class="left-container-arrow"></span>
+            </div>
+
+        </div>
+        <div class="container right-container">
+            <img src="OC1ODT0.jpg">
+            <div class="text-box">
+                <h3>4.Visit Flat</h3>
+                <p>If you like the owner and flat , then visit the flat </p>
+                <span class="right-container-arrow"></span>
+            </div>
+
+        </div>
+        <div class="container left-container">
+            <img src="OC1ODT0.jpg">
+            <div class="text-box">
+                <h3>5.Confirm Flat</h3>
+                <p>Once you are satisfied with the rent,then found your flat</p>
+                <span class="left-container-arrow"></span>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footercontainer">
+            <div class="footerrow">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="#">location guidance</a></li>
+                        <li><a href="#">Reach out us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Search for</h4>
+                    <ul>
+                        <li><a href="#">Flats</a></li>
+                        <li><a href="#">PG's</a></li>
+                        <li><a href="#">Roomates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h6>Designed by Flat Finder Team</h6>
+    </footer>
+
+</body>
+
+</html>
